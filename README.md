@@ -50,14 +50,14 @@
 | 날짜    | 주차 | 진행                            | 호스트   | 부호스트 | 발표 자료 |
 | ------- | ---- | ------------------------------- | -------- | -------- | ---------- |
 | 12/2    | OT   |                                 |          |          |            |
-| 12/9    | 1주차 | Section1. 리액트의 역사 ~ 클로저 (0.~1.4장) | 양진성 | 강민석 | |
-|         |      | Section2. 이벤트 루프 ~ 타입스크립트 (1.6~1.7장) | 남희정 | 강민석 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758022/React_Deep_Dive_1.5.1.7.pdf) |
-| 12/16   | 2주차 | Section1. JSX란? ~ 클래스형 컨포넌트와 함수형 컴포넌트 (2.1~2.3장) | 최승진 | 윤서림 | |
-|         |      | Section2. 렌더링은 어떻게 일어나는가? ~ 컴포넌트와 메모이제이션 (2.4~2.5장) | 남희정 | 양진성 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758023/React_Deep_Dive_2.4.2.5.pdf)|
-| 12/23   | 3주차 | [Section1. 리액트의 모든 훅 파헤치기 (3.1장)](https://youtu.be/sXVVWa4WWqk?si=DMIAVFVKunANpRCD) | 남희정 | 윤서림 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758025/React_Deep_Dive_3.1.pdf) |
-|         |      | Section2. 사용자 정의 훅과 고차 컴포넌트 ~ 서버 사이드 렌더링(3.2~4.1장) | 윤서림 | 최승진 ||
-| 12/30   | 4주차 | Section1. SSR 렌더링 API ~ Next.js (4.2~4.3장) | 강민석 | 양진성 |  |
-|         |      | Section2. 리액트와 상태 관리 라이브러리 (5.1~5.2장) | 남희정 | 최승진 |  |
+| 12/9    | 1주차 | 리액트의 역사 ~ 클로저 (0.~1.4장) | 양진성 | 강민석 | |
+|         |      | 이벤트 루프 ~ 타입스크립트 (1.6~1.7장) | 남희정 | 강민석 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758022/React_Deep_Dive_1.5.1.7.pdf) |
+| 12/16   | 2주차 | JSX란? ~ 클래스형 컨포넌트와 함수형 컴포넌트 (2.1~2.3장) | 최승진 | 윤서림 | |
+|         |      | 렌더링은 어떻게 일어나는가? ~ 컴포넌트와 메모이제이션 (2.4~2.5장) | 남희정 | 양진성 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758023/React_Deep_Dive_2.4.2.5.pdf)|
+| 12/23   | 3주차 | [리액트의 모든 훅 파헤치기 (3.1장)](https://youtu.be/sXVVWa4WWqk?si=DMIAVFVKunANpRCD) | 남희정 | 윤서림 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758025/React_Deep_Dive_3.1.pdf) |
+|         |      | 사용자 정의 훅과 고차 컴포넌트 ~ 서버 사이드 렌더링(3.2~4.1장) | 윤서림 | 최승진 ||
+| 12/30   | 4주차 | SSR 렌더링 API ~ Next.js (4.2~4.3장) | 강민석 | 양진성 |  |
+|         |      | 리액트와 상태 관리 라이브러리 (5.1~5.2장) | 남희정 | 최승진 |  |
 | ...     | ...  | ...                             | ...      | ...      | ...        |
 
 
