@@ -50,14 +50,16 @@
 | 날짜    | 주차 | 진행                            | 호스트   | 부호스트 | 발표 자료 |
 | ------- | ---- | ------------------------------- | -------- | -------- | ---------- |
 | 12/2    | OT   |                                 |          |          |            |
-| 12/9    | 1주차 | 리액트의 역사 ~ 클로저 (0.~1.4장) | 양진성 | 강민석 | |
-|         |      | 이벤트 루프 ~ 타입스크립트 (1.6~1.7장) | 남희정 | 강민석 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758022/React_Deep_Dive_1.5.1.7.pdf) |
-| 12/16   | 2주차 | JSX란? ~ 클래스형 컨포넌트와 함수형 컴포넌트 (2.1~2.3장) | 최승진 | 윤서림 | |
-|         |      | 렌더링은 어떻게 일어나는가? ~ 컴포넌트와 메모이제이션 (2.4~2.5장) | 남희정 | 양진성 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758023/React_Deep_Dive_2.4.2.5.pdf)|
-| 12/23   | 3주차 | [리액트의 모든 훅 파헤치기 (3.1장)](https://youtu.be/sXVVWa4WWqk?si=DMIAVFVKunANpRCD) | 남희정 | 윤서림 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758025/React_Deep_Dive_3.1.pdf) |
-|         |      | 사용자 정의 훅과 고차 컴포넌트 ~ 서버 사이드 렌더링(3.2~4.1장) | 윤서림 | 최승진 ||
-| 12/30   | 4주차 | SSR 렌더링 API ~ Next.js (4.2~4.3장) | 강민석 | 양진성 |  |
-|         |      | 리액트와 상태 관리 라이브러리 (5.1~5.2장) | 남희정 | 최승진 |  |
+| 12/9    | 1주차 | 리액트의 역사 ~ 클로저(0.~1.4장) | 양진성 | 강민석 | |
+|         |      | 이벤트 루프 ~ 타입스크립트(1.6~1.7장) | 남희정 | 강민석 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758022/React_Deep_Dive_1.5.1.7.pdf) |
+| 12/16   | 2주차 | JSX란? ~ 클래스형, 함수형 컴포넌트(2.1~2.3장) | 최승진 | 윤서림 | |
+|         |      | 렌더링 ~ 메모이제이션(2.4~2.5장) | 남희정 | 양진성 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758023/React_Deep_Dive_2.4.2.5.pdf)|
+| 12/23   | 3주차 | [리액트의 모든 훅 파헤치기(3.1장)](https://youtu.be/sXVVWa4WWqk?si=DMIAVFVKunANpRCD) | 남희정 | 윤서림 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758025/React_Deep_Dive_3.1.pdf) |
+|         |      | [사용자 정의 훅과 고차 컴포넌트 ~ SSR(3.2~4.1장)](https://www.youtube.com/watch?v=37kpCwENV58) | 윤서림 | 최승진 ||
+| 12/30   | 4주차 | SSR 렌더링 API ~ Next.js(4.2~4.3장) | 강민석 | 양진성 |  |
+|         |      | 리액트와 상태 관리 라이브러리(5.1~5.2장) | 남희정 | 최승진 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13796948/React_Deep_Dive_5.1.5.2.pdf) |
+| 1/06   | 5주차 | React ~ Chrome 개발도구(6~7장) | 양진성 | - |  |
+|         |      | 좋은 React 코드 작성을 위한 환경 구축(8장) | 윤서림 | - |  |
 | ...     | ...  | ...                             | ...      | ...      | ...        |
 
 
@@ -119,13 +121,21 @@
 - [CSR, SSR 렌더링 참고 링크](https://web.dev/articles/rendering-on-the-web?hl=ko)
 - [고차컴포넌트 사용 예시 | 최승진 프로젝트 ](https://github.com/yondo123/simple-wather/blob/main/src/services/hooks/useGetCurrentWeather.ts)
 
+### 4주차 이슈
+- 스트림이 서버의 부담을 줄일 수 있다고 한 이유는?
+- RenderToString보다 renderToNodeStream을 사용하면 TTFB FCP 등을 좋게 뽑아낼 수 있다.
+- 서버라는 존재가 생김에 따라 프론트엔드는 어떤 부담이 생겼을까?
+- stylex
+- XState
+- Zustand가 각광받는 이유
+
 
 <h2 align="center" id="6">출석표</h2>
 
 | 이름   | GitHub ID   | OT | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | ... |
 | ------ | ------------ | -- | ----- | ----- | --- | --- | --- | --- | --- |
-| 강민석 | [@ainochi-kor](https://github.com/ainochi-kor)  | ✓  | ✓     | ✓     | ✓     |     |     |    | ... |
-| 남희정 | [@havenothorn](https://github.com/havenothorn)   | ✓  | ✓     | ✓     | ✓     |    |    |    | ... |
-| 양진성 | [@jinseoIT](https://github.com/jinseoIT)   | ✓  | ✓     | ✓     |✓     |    |    |    |  ... |
-| 윤서림 | [@yunseorim1116](https://github.com/yunseorim1116) | ✓  | ✓     | ✓     |✓     |    |    |    | ... |
-| 최승진 | [@yondo123](https://github.com/yondo123)   | ✓  |   ✓   | ✓     |✓     |    |    |    |  ... |
+| 강민석 | [@ainochi-kor](https://github.com/ainochi-kor)  | ✓  | ✓     | ✓     | ✓     | ✓    |     |    | ... |
+| 남희정 | [@havenothorn](https://github.com/havenothorn)   | ✓  | ✓     | ✓     | ✓     |  ✓  |    |    | ... |
+| 양진성 | [@jinseoIT](https://github.com/jinseoIT)   | ✓  | ✓     | ✓     |✓     | ✓   |    |    |  ... |
+| 윤서림 | [@yunseorim1116](https://github.com/yunseorim1116) | ✓  | ✓     | ✓     |✓     | ✓   |    |    | ... |
+| 최승진 | [@yondo123](https://github.com/yondo123)   | ✓  |   ✓   | ✓     |✓     | ✓   |    |    |  ... |
