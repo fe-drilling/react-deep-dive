@@ -52,14 +52,17 @@
 | 12/2    | OT   |                                 |          |          |            |
 | 12/9    | 1주차 | 리액트의 역사 ~ 클로저(0.~1.4장) | 양진성 | 강민석 | |
 |         |      | 이벤트 루프 ~ 타입스크립트(1.6~1.7장) | 남희정 | 강민석 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758022/React_Deep_Dive_1.5.1.7.pdf) |
-| 12/16   | 2주차 | JSX란? ~ 클래스형, 함수형 컴포넌트(2.1~2.3장) | 최승진 | 윤서림 | |
+| 12/16   | 2주차 | JSX란? ~ 클래스형, 함수형 컴포넌트(2.1~2.3장) | 최승진 | 윤서림 |[발표 자료](https://yondo123.notion.site/02-React-7aa6958a5e1244f7afa700293a5e2b57?pvs=4) |
 |         |      | 렌더링 ~ 메모이제이션(2.4~2.5장) | 남희정 | 양진성 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758023/React_Deep_Dive_2.4.2.5.pdf)|
 | 12/23   | 3주차 | [리액트의 모든 훅 파헤치기(3.1장)](https://youtu.be/sXVVWa4WWqk?si=DMIAVFVKunANpRCD) | 남희정 | 윤서림 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13758025/React_Deep_Dive_3.1.pdf) |
 |         |      | [사용자 정의 훅과 고차 컴포넌트 ~ SSR(3.2~4.1장)](https://www.youtube.com/watch?v=37kpCwENV58) | 윤서림 | 최승진 ||
-| 12/30   | 4주차 | SSR 렌더링 API ~ Next.js(4.2~4.3장) | 강민석 | 양진성 |  |
-|         |      | 리액트와 상태 관리 라이브러리(5.1~5.2장) | 남희정 | 최승진 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13796948/React_Deep_Dive_5.1.5.2.pdf) |
+| 12/30   | 4주차 | [SSR 렌더링 API ~ Next.js(4.2~4.3장)](https://youtu.be/SYeJqx_-8ag) | 강민석 | 양진성 | [발표 자료](https://ainochi-kor.notion.site/SSR-with-Next-js-a0f8c852a68c46adb5a10201cd8ce9d0?pvs=4)  |
+|         |      | [리액트와 상태 관리 라이브러리(5.1~5.2장)](https://youtu.be/IiWp2F5EXjk) | 남희정 | 최승진 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13796948/React_Deep_Dive_5.1.5.2.pdf) |
 | 1/06   | 5주차 | React ~ Chrome 개발도구(6~7장) | 양진성 | - |  |
 |         |      | 좋은 React 코드 작성을 위한 환경 구축(8장) | 윤서림 | - |  |
+| | |[(1) 중간 회고 정리](https://github.com/fe-drilling/react-deep-dive/files/13848069/5.1_6.pdf)| | | |
+| 1/13   | 6주차 | Next.js ~ Github(9.1~9.2장) | 양진성 | 남희정 |  |
+|         |      | React 배포 ~ 도커라이징(9.3~9.4장) | 윤서림 | 양진성 | [발표 자료](https://nifty-period-b9a.notion.site/5786796aed964ab3bdcdd7b21608ff05?pvs=25) |
 | ...     | ...  | ...                             | ...      | ...      | ...        |
 
 
@@ -129,13 +132,29 @@
 - XState
 - Zustand가 각광받는 이유
 
+### 5주차 이슈
+- ESLint Plugin과 Config의 차이?
+- ESLint 커스텀
+- ESLint Airbnb가 제일 대중적, => Spotify 추천!
+- https://www.google.com/search?q=spotify+eslint&sourceid=chrome&ie=UTF-8
+- React17부터 import React를 해줄 필요가 없다 이유?
+- React의 export default만 금지하는 이유?
+- Import React 제거가 필요할까? Babel의 트리쉐이킹이 있잖아? => 유용하다. 시간을 줄일 수 있기 때문, 빌드 속도도 빨라진다.
+- New Date() 금지 시키기 => 왜?
+- day.js, momoent.js랑 같이 쓸 때 혼동이 있을 수 있다.
+- 휴먼 이슈가 클 수 있다!
+- ESLint와 Prettier의 충돌
+- 테스트코드, TDD 실무에 유용한가? => dataset을 사용한 event delegation 이벤트 위임
+- React엔 이미 이벤트 위임이 처리가 되어있다?
+- renderHook을 두 번 실행하고 싶으면? 두 번 호출하면 되는거 아닌가? 아님.
+- TestComponent 두 번 만들어냄. renderHook이 반환하는 rerender 함수를 활용하면 가능!
 
 <h2 align="center" id="6">출석표</h2>
 
 | 이름   | GitHub ID   | OT | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | ... |
 | ------ | ------------ | -- | ----- | ----- | --- | --- | --- | --- | --- |
-| 강민석 | [@ainochi-kor](https://github.com/ainochi-kor)  | ✓  | ✓     | ✓     | ✓     | ✓    |     |    | ... |
-| 남희정 | [@havenothorn](https://github.com/havenothorn)   | ✓  | ✓     | ✓     | ✓     |  ✓  |    |    | ... |
-| 양진성 | [@jinseoIT](https://github.com/jinseoIT)   | ✓  | ✓     | ✓     |✓     | ✓   |    |    |  ... |
-| 윤서림 | [@yunseorim1116](https://github.com/yunseorim1116) | ✓  | ✓     | ✓     |✓     | ✓   |    |    | ... |
-| 최승진 | [@yondo123](https://github.com/yondo123)   | ✓  |   ✓   | ✓     |✓     | ✓   |    |    |  ... |
+| 강민석 | [@ainochi-kor](https://github.com/ainochi-kor)  | ✓  | ✓     | ✓     | ✓     | ✓    | ✓     |    | ... |
+| 남희정 | [@havenothorn](https://github.com/havenothorn)   | ✓  | ✓     | ✓     | ✓     |  ✓  | ✓    |    | ... |
+| 양진성 | [@jinseoIT](https://github.com/jinseoIT)   | ✓  | ✓     | ✓     |✓     | ✓   | ✓    |    |  ... |
+| 윤서림 | [@yunseorim1116](https://github.com/yunseorim1116) | ✓  | ✓     | ✓     |✓     | ✓   |✓     |    | ... |
+| 최승진 | [@yondo123](https://github.com/yondo123)   | ✓  |   ✓   | ✓     |✓     | ✓   | ✓    |    |  ... |
