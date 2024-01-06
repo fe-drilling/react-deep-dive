@@ -59,10 +59,10 @@
 | 12/30   | 4주차 | [SSR 렌더링 API ~ Next.js(4.2~4.3장)](https://youtu.be/SYeJqx_-8ag) | 강민석 | 양진성 | [발표 자료](https://ainochi-kor.notion.site/SSR-with-Next-js-a0f8c852a68c46adb5a10201cd8ce9d0?pvs=4)  |
 |         |      | [리액트와 상태 관리 라이브러리(5.1~5.2장)](https://youtu.be/IiWp2F5EXjk) | 남희정 | 최승진 | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/13796948/React_Deep_Dive_5.1.5.2.pdf) |
 | 1/06   | 5주차 | React ~ Chrome 개발도구(6~7장) | 양진성 | - |  |
-|         |      | 좋은 React 코드 작성을 위한 환경 구축(8장) | 윤서림 | - |  |
+|         |      | 좋은 React 코드 작성을 위한 환경 구축(8장) | 윤서림 | - | [발표 자료](https://nifty-period-b9a.notion.site/5786796aed964ab3bdcdd7b21608ff05?pvs=25) |
 | | |[(1) 중간 회고 정리](https://github.com/fe-drilling/react-deep-dive/files/13848069/5.1_6.pdf)| | | |
 | 1/13   | 6주차 | Next.js ~ Github(9.1~9.2장) | 양진성 | 남희정 |  |
-|         |      | React 배포 ~ 도커라이징(9.3~9.4장) | 윤서림 | 양진성 | [발표 자료](https://nifty-period-b9a.notion.site/5786796aed964ab3bdcdd7b21608ff05?pvs=25) |
+|         |      | React 배포 ~ 도커라이징(9.3~9.4장) | 윤서림 | 양진성 | |
 | ...     | ...  | ...                             | ...      | ...      | ...        |
 
 
