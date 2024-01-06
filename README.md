@@ -135,19 +135,19 @@
 ### 5주차 이슈
 - ESLint Plugin과 Config의 차이?
 - ESLint 커스텀
-- ESLint Airbnb가 제일 대중적, => Spotify 추천!
-- https://www.google.com/search?q=spotify+eslint&sourceid=chrome&ie=UTF-8
+  - ESLint Airbnb가 제일 대중적, => Spotify 추천!
+  - https://www.google.com/search?q=spotify+eslint&sourceid=chrome&ie=UTF-8
 - React17부터 import React를 해줄 필요가 없다 이유?
-- React의 export default만 금지하는 이유?
-- Import React 제거가 필요할까? Babel의 트리쉐이킹이 있잖아? => 유용하다. 시간을 줄일 수 있기 때문, 빌드 속도도 빨라진다.
+  - React의 export default만 금지하는 이유?
+- Import React 제거가 필요할까? Babel의 트리쉐이킹이 있잖아?
+  - => 유용하다. 시간을 줄일 수 있기 때문, 빌드 속도도 빨라진다.
 - New Date() 금지 시키기 => 왜?
-- day.js, momoent.js랑 같이 쓸 때 혼동이 있을 수 있다.
-- 휴먼 이슈가 클 수 있다!
+  - day.js, momoent.js랑 같이 쓸 때 혼동이 있을 수 있다.
 - ESLint와 Prettier의 충돌
 - 테스트코드, TDD 실무에 유용한가? => dataset을 사용한 event delegation 이벤트 위임
 - React엔 이미 이벤트 위임이 처리가 되어있다?
 - renderHook을 두 번 실행하고 싶으면? 두 번 호출하면 되는거 아닌가? 아님.
-- TestComponent 두 번 만들어냄. renderHook이 반환하는 rerender 함수를 활용하면 가능!
+  - TestComponent 두 번 만들어냄. renderHook이 반환하는 rerender 함수를 활용하면 가능!
 
 <h2 align="center" id="6">출석표</h2>
 
