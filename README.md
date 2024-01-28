@@ -63,6 +63,11 @@
 | | |[(1) 중간 회고 정리](https://github.com/fe-drilling/react-deep-dive/files/13848069/5.1_6.pdf)| | | |
 | 1/13   | 6주차 | Next.js ~ Github(9.1~9.2장) | 양진성 | 남희정 |  |
 |         |      | React 배포 ~ 도커라이징(9.3~9.4장) | 윤서림 | 양진성 | |
+| 1/20   | 7주차 | React 17~18(10장) | 남희정 | - | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/14074397/React_Deep_Dive_10.pdf)|
+|         |      | Next.js13과 React18(11장) | 강민석 | - | |
+| 1/28   | 8주차 | 웹 핵심 지표~ 구글 라이트 하우스(12~13.2장) | 최승진 | - |  |
+|         |      | WebPageTest~React XSS(13.3장) | 양진성 | - | |
+| 2/3   | 9주차 | getServerSideProps 주의사항(14.2~15장) |  | - |  |
 | ...     | ...  | ...                             | ...      | ...      | ...        |
 
 
@@ -151,10 +156,10 @@
 
 <h2 align="center" id="6">출석표</h2>
 
-| 이름   | GitHub ID   | OT | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | ... |
-| ------ | ------------ | -- | ----- | ----- | --- | --- | --- | --- | --- |
-| 강민석 | [@ainochi-kor](https://github.com/ainochi-kor)  | ✓  | ✓     | ✓     | ✓     | ✓    | ✓     |    | ... |
-| 남희정 | [@havenothorn](https://github.com/havenothorn)   | ✓  | ✓     | ✓     | ✓     |  ✓  | ✓    |    | ... |
-| 양진성 | [@jinseoIT](https://github.com/jinseoIT)   | ✓  | ✓     | ✓     |✓     | ✓   | ✓    |    |  ... |
-| 윤서림 | [@yunseorim1116](https://github.com/yunseorim1116) | ✓  | ✓     | ✓     |✓     | ✓   |✓     |    | ... |
-| 최승진 | [@yondo123](https://github.com/yondo123)   | ✓  |   ✓   | ✓     |✓     | ✓   | ✓    |    |  ... |
+| 이름   | GitHub ID   | OT | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | 7주차 | 8주차 | 9주차 |
+| ------ | ------------ | -- | ----- | ----- | --- | --- | --- | --- | --- | --- | --- |
+| 강민석 | [@ainochi-kor](https://github.com/ainochi-kor)  | ✓  | ✓     | ✓     | ✓     | ✓    | ✓     |✓    |✓    |✓    | ... |
+| 남희정 | [@havenothorn](https://github.com/havenothorn)   | ✓  | ✓     | ✓     | ✓     |  ✓  | ✓    |✓    |✓    |✓    | ... |
+| 양진성 | [@jinseoIT](https://github.com/jinseoIT)   | ✓  | ✓     | ✓     |✓     | ✓   | ✓    | ✓   |✓    |✓    |  ... |
+| 윤서림 | [@yunseorim1116](https://github.com/yunseorim1116) | ✓  | ✓     | ✓     |✓     | ✓   |✓     |  ✓  | ✓    |✓    |... |
+| 최승진 | [@yondo123](https://github.com/yondo123)   | ✓  |   ✓   | ✓     |✓     | ✓   | ✓    | ✓   | ✓    |✓    | ... |
