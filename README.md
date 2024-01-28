@@ -65,10 +65,9 @@
 |         |      | React 배포 ~ 도커라이징(9.3~9.4장) | 윤서림 | 양진성 | |
 | 1/20   | 7주차 | React 17~18(10장) | 남희정 | - | [발표 자료](https://github.com/fe-drilling/react-deep-dive/files/14074397/React_Deep_Dive_10.pdf)|
 |         |      | Next.js13과 React18(11장) | 강민석 | - | |
-| 1/28   | 8주차 | 웹 핵심 지표~ 구글 라이트 하우스(12~13.2장) | 최승진 | - |  |
-|         |      | WebPageTest~React XSS(13.3장) | 양진성 | - | |
-| 2/3   | 9주차 | getServerSideProps 주의사항(14.2~15장) |  | - |  |
-| ...     | ...  | ...                             | ...      | ...      | ...        |
+| 1/28   | 8주차 | 웹 핵심 지표 ~ 구글 라이트 하우스(12~13.2장) | 최승진 | - | [발표 자료](https://yondo123.notion.site/175d6f9df3c841598c64e82059ef8b54?pvs=4) |
+| 2/3   | 9주차 | WebPageTest ~ React XSS(13.3장~14.1장) | 양진성 | - |  |
+|         |      | getServerSideProps 주의사항(14.2~15장) | 양진성 | - | |
 
 
 
